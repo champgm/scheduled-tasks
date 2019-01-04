@@ -1,2 +1,4 @@
 *.md filter=git-crypt diff=git-crypt
 *.ts filter=git-crypt diff=git-crypt
+NodeTasks/**/* filter=git-crypt diff=git-crypt
+*.lnk filter=git-crypt diff=git-crypt
