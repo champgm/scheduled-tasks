@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint 'src/**/*.ts' --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/tasks/Elasticsearch/LoadWatchData.ts"
   },
   "repository": {
     "type": "git",
@@ -21,15 +22,18 @@
     "@elastic/elasticsearch": "^7.3.0",
     "fs": "0.0.1-security",
     "googleapis": "^42.0.0",
+    "googleapis-common": "^3.1.0",
     "readline": "^1.3.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "rimraf": "^3.0.0",
+    "sqlite3": "^4.1.0",
     "typescript": "^3.6.2"
   },
   "devDependencies": {
     "@types/node": "^12.7.4",
     "@types/request": "^2.48.2",
-    "@types/request-promise-native": "^1.0.16"
+    "@types/request-promise-native": "^1.0.16",
+    "@types/sqlite3": "^3.1.5"
   }
 }
