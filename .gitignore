@@ -1,2 +1,4 @@
 node_modules/
 logs/**/*
+token.json
+credentials.json
